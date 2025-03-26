@@ -3,16 +3,27 @@
 import { Fragment, useState } from 'react'
 import Logo from '@/data/logo.svg'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
+import {
+  Bars3Icon,
+  XMarkIcon,
+  CalendarDaysIcon,
+  ChatBubbleLeftRightIcon,
+} from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
 const products = [
   {
-    name: 'Abianic Appointment',
+    name: 'Bookingoal',
     description: 'Gestión de Turnos Online',
-    href: 'https://about.appointment.abianic.com/',
+    href: 'https://bookingoal.com/',
     icon: CalendarDaysIcon,
+  },
+  {
+    name: 'Nessender',
+    description: 'Mensajería para empresas',
+    href: 'https://nessender.com/',
+    icon: ChatBubbleLeftRightIcon,
   },
 ]
 const callsToAction = []
