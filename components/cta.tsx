@@ -21,7 +21,7 @@ const CTA = () => {
             </p>
             <div className="mt-10 flex">
               <Link
-                href="https://calendly.com/abianic/30min"
+                href="https://app.bookingoal.com/appointments/abianic"
                 className="gradient-button rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Programe una llamada <span aria-hidden="true">&rarr;</span>

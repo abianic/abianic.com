@@ -13,7 +13,7 @@ const FooterCTA = () => (
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Link
-            href="https://calendly.com/abianic/30min"
+            href="https://app.bookingoal.com/appointments/abianic"
             className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             Programe una llamada

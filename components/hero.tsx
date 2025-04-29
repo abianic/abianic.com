@@ -36,7 +36,7 @@ const Hero = () => (
         </p>
         <div className="flex items-center justify-center gap-x-3 text-sm font-medium">
           <a
-            href="https://calendly.com/abianic/30min"
+            href="https://app.bookingoal.com/appointments/abianic"
             target="_blank"
             rel="noopener noreferrer"
             className="gradient-button rounded-lg px-4 py-2.5 text-center text-white duration-150 "

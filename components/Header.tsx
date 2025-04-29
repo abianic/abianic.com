@@ -142,7 +142,7 @@ const Header = () => {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-            href="https://calendly.com/abianic/30min"
+            href="https://app.bookingoal.com/appointments/abianic"
             className="gradient-button block rounded-lg px-4 py-2.5 text-center text-sm font-medium text-white duration-150 md:inline"
           >
             Programe una llamada
@@ -239,7 +239,7 @@ const Header = () => {
               </div>
               <div className="py-6">
                 <Link
-                  href="https://calendly.com/abianic/30min"
+                  href="https://app.bookingoal.com/appointments/abianic"
                   className="gradient-button block rounded-lg px-4 py-2.5 text-center text-sm font-medium text-white duration-150 md:inline"
                 >
                   Programe una llamada
