@@ -22,7 +22,8 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['JetBrains Mono', ...fontFamily.sans],
+        sans: ['JetBrains Sans', ...fontFamily.sans],
+        mono: ['JetBrains Mono', ...fontFamily.mono],
       },
       colors: {
         primary: colors.pink,
