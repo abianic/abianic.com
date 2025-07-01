@@ -32,7 +32,7 @@ const Contacts = () => {
           </g>
         </svg>
       ),
-      contact: '+593 99 053 6280',
+      contact: '+593 96 746 9696',
       title: 'Whatsapp',
     },
     {
@@ -52,7 +52,7 @@ const Contacts = () => {
           />
         </svg>
       ),
-      contact: '+593 99 053 6280',
+      contact: '+593 96 746 9696',
       title: 'Teléfono',
     },
     {
@@ -72,7 +72,7 @@ const Contacts = () => {
           />
         </svg>
       ),
-      contact: 'mauricioloayzas@mauloasan.com',
+      contact: 'info@abianic.com',
       title: 'Email',
     },
   ]
