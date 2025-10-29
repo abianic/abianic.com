@@ -14,16 +14,10 @@ import Link from 'next/link'
 
 const products = [
   {
-    name: 'Bookingoal',
+    name: 'BookinGoal',
     description: 'Gestión de Turnos Online',
     href: 'https://bookingoal.com/',
     icon: CalendarDaysIcon,
-  },
-  {
-    name: 'Nessender',
-    description: 'Mensajería para empresas',
-    href: 'https://nessender.com/',
-    icon: ChatBubbleLeftRightIcon,
   },
 ]
 const callsToAction = []

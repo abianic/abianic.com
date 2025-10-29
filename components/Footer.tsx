@@ -80,7 +80,15 @@ const Footer = () => (
   <footer>
     <div className="custom-screen pt-16">
       <div className="mt-10 items-center justify-between border-t py-10 sm:flex">
-        <p className="text-gray-600">ABIANIC.</p>
+        <div className="flex items-center gap-x-6 text-gray-600 max-sm:flex-col max-sm:gap-y-4">
+          <p className="text-gray-600">© {new Date().getFullYear()} Abianic.</p>
+          <a href="/terms-of-service" className="duration-150 hover:text-gray-500">
+            Términos de Servicio
+          </a>
+          <a href="/privacy-policy" className="duration-150 hover:text-gray-500">
+            Política de Privacidad
+          </a>
+        </div>
         <div className="mt-6 flex items-center gap-x-6 text-gray-400">
           {socialInfo.map((item, idx) => (
             <a
