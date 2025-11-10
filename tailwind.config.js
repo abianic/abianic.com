@@ -28,29 +28,41 @@ module.exports = {
       colors: {
         primary: colors.pink,
         gray: colors.gray,
-        abianicGray: {
-          50: '#f7f7fa',
-          100: '#ededf2',
-          200: '#d4d4dc',
-          300: '#bcbcc7',
-          400: '#9595a5',
-          500: '#4c475b', // color base
-          600: '#454050',
-          700: '#373340',
-          800: '#2a2731',
-          900: '#1f1d25',
+        abianicLightBlue: {
+          50: '#eefaff',
+          100: '#dff6fe',
+          200: '#c0ecfd',
+          300: '#94dffb',
+          400: '#5ecdf8',
+          500: '#219ebc', // color base
+          600: '#1d8eab',
+          700: '#18768f',
+          800: '#146074',
+          900: '#114f60',
         },
-        abianicWine: {
-          50: '#fdf2f4',
-          100: '#fde8eb',
-          200: '#fbd1d5',
-          300: '#f8a3aa',
-          400: '#f3757f',
-          500: '#9f435b', // color base
-          600: '#8f3c52',
-          700: '#7c3346',
-          800: '#692a3a',
-          900: '#57222f',
+        abianicOrange: {
+          50: '#fff8eb',
+          100: '#fff0d4',
+          200: '#fedca0',
+          300: '#fec06d',
+          400: '#fca338',
+          500: '#fb8500', // color base
+          600: '#e27700',
+          700: '#c06500',
+          800: '#995000',
+          900: '#7d4100',
+        },
+        abianicDarkBlue: {
+          50: '#eefaff',
+          100: '#dff6fe',
+          200: '#c0ecfd',
+          300: '#94dffb',
+          400: '#5ecdf8',
+          500: '#219ebc', // color base
+          600: '#1d8eab',
+          700: '#18768f',
+          800: '#146074',
+          900: '#114f60',
         },
       },
       typography: ({ theme }) => ({
@@ -61,7 +73,7 @@ module.exports = {
               '&:hover': {
                 color: `${theme('colors.primary.600')}`,
               },
-              code: { color: theme('colors.abianicWine.900') },
+              code: { color: theme('colors.abianicOrange.900') },
             },
             'h1,h2': {
               fontWeight: '700',
@@ -71,18 +83,18 @@ module.exports = {
               fontWeight: '600',
             },
             code: {
-              color: theme('colors.abianicWine.900'),
+              color: theme('colors.abianicOrange.900'),
             },
           },
         },
         invert: {
           css: {
             a: {
-              color: theme('colors.abianicWine.500'),
+              color: theme('colors.abianicOrange.500'),
               '&:hover': {
-                color: `${theme('colors.abianicWine.400')}`,
+                color: `${theme('colors.abianicOrange.400')}`,
               },
-              code: { color: theme('colors.abianicWine.900') },
+              code: { color: theme('colors.abianicOrange.900') },
             },
             'h1,h2,h3,h4,h5,h6': {
               color: theme('colors.gray.800'),

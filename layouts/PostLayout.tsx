@@ -43,7 +43,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <dl className="space-y-10">
                 <div>
                   <dt className="sr-only">Published on</dt>
-                  <dd className="text-base font-medium leading-6 text-abianicGray-500 dark:text-abianicGray-400">
+                  <dd className="text-base font-medium leading-6 text-abianicLightBlue-500 dark:text-abianicLightBlue-400">
                     <time dateTime={date}>
                       {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
                     </time>
@@ -79,7 +79,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                           {author.twitter && (
                             <Link
                               href={author.twitter}
-                              className="text-abianicWine-500 hover:text-abianicWine-600 dark:hover:text-abianicWine-400"
+                              className="text-abianicOrange-500 hover:text-abianicOrange-600 dark:hover:text-abianicOrange-400"
                             >
                               {author.twitter
                                 .replace('https://twitter.com/', '@')
@@ -94,7 +94,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pb-8 pt-10 text-abianicGray-800 dark:prose-invert">
+              <div className="prose max-w-none pb-8 pt-10 text-abianicLightBlue-800 dark:prose-invert">
                 {children}
               </div>
               <div className="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-700">
@@ -134,7 +134,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-500">
                           Previous Article
                         </h2>
-                        <div className="text-abianicWine-500 hover:text-abianicWine-600 dark:hover:text-abianicWine-400">
+                        <div className="text-abianicOrange-500 hover:text-abianicOrange-600 dark:hover:text-abianicOrange-400">
                           <Link href={`/${prev.path}`}>{prev.title}</Link>
                         </div>
                       </div>
@@ -144,7 +144,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Next Article
                         </h2>
-                        <div className="text-abianicWine-500 hover:text-abianicWine-600 dark:hover:text-abianicWine-400">
+                        <div className="text-abianicOrange-500 hover:text-abianicOrange-600 dark:hover:text-abianicOrange-400">
                           <Link href={`/${next.path}`}>{next.title}</Link>
                         </div>
                       </div>
@@ -155,7 +155,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <div className="pt-4 xl:pt-8">
                 <Link
                   href={`/${basePath}`}
-                  className="text-abianicWine-500 hover:text-abianicWine-600 dark:hover:text-abianicWine-400"
+                  className="text-abianicOrange-500 hover:text-abianicOrange-600 dark:hover:text-abianicOrange-400"
                   aria-label="Back to the blog"
                 >
                   &larr; Back to the blog

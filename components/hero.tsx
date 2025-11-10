@@ -27,7 +27,7 @@ const Hero = () => (
         />
       </svg>
       <div className="mx-auto max-w-4xl space-y-5 text-center">
-        <h1 className="mx-auto text-4xl font-extrabold text-gray-800 sm:text-6xl">
+        <h1 className="mx-auto text-4xl font-extrabold text-abianicDarkBlue-900 sm:text-6xl">
           Crea y escala tu próxima idea de negocio más rápido
         </h1>
         <p className="mx-auto max-w-xl font-medium">

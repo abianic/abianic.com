@@ -11,7 +11,7 @@ const Contacts = () => {
           viewBox="0,0,256,256"
         >
           <g
-            fill="#97576d"
+            fill="#fb8500"
             fill-rule="nonzero"
             stroke="none"
             stroke-width="1"
@@ -42,7 +42,7 @@ const Contacts = () => {
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
-          stroke="#97576D"
+          stroke="#fb8500"
           className="h-6 w-6"
         >
           <path
@@ -62,7 +62,7 @@ const Contacts = () => {
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
-          stroke="#97576D"
+          stroke="#fb8500"
           className="h-6 w-6"
         >
           <path
