@@ -4,8 +4,8 @@ const socialInfo = [
       <svg className="h-6 w-6 duration-150 hover:text-gray-500" fill="none" viewBox="0 0 48 48">
         <defs>
           <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="rgba(167, 89, 109, 1)" />
-            <stop offset="100%" stopColor="rgba(151, 87, 109, 1)" />
+            <stop offset="0%" stopColor="rgba(251, 133, 0, 1)" />
+            <stop offset="100%" stopColor="rgba(251, 133, 0, 1)" />
           </linearGradient>
           <clipPath id="a">
             <path fill="#fff" d="M0 0h48v48H0z" />
@@ -27,8 +27,8 @@ const socialInfo = [
       <svg className="h-6 w-6 duration-150 hover:text-gray-500" fill="none" viewBox="0 0 48 48">
         <defs>
           <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="rgba(167, 89, 109, 1)" />
-            <stop offset="100%" stopColor="rgba(151, 87, 109, 1)" />
+            <stop offset="0%" stopColor="rgba(251, 133, 0, 1)" />
+            <stop offset="100%" stopColor="rgba(251, 133, 0, 1)" />
           </linearGradient>
           <clipPath id="clip0_17_80">
             <path fill="#fff" d="M0 0h48v48H0z" />
@@ -61,8 +61,8 @@ const socialInfo = [
         {/* Define el gradiente lineal */}
         <defs>
           <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="rgba(167, 89, 109, 1)" />
-            <stop offset="100%" stopColor="rgba(151, 87, 109, 1)" />
+            <stop offset="0%" stopColor="rgba(251, 133, 0, 1)" />
+            <stop offset="100%" stopColor="rgba(251, 133, 0, 1)" />
           </linearGradient>
         </defs>
 

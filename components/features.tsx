@@ -24,7 +24,7 @@ const features = [
 ]
 const Features = () => {
   return (
-    <div className="bg-abianicGray-700 py-24 sm:py-32" id="services">
+    <div className="bg-abianicLightBlue-700 py-24 sm:py-32" id="services">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -40,7 +40,7 @@ const Features = () => {
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
                 <dt className="text-base font-semibold leading-7 text-white">
-                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-abianicWine-500">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-abianicOrange-500">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}
